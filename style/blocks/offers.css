@@ -1,0 +1,98 @@
+.offers {
+  margin-bottom: 121px;
+}
+
+.title--fire:after {
+  content: "" ;
+  background: url(../../img/flame.png);
+  margin-left: 10px;
+  width: 21px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.offers__item {
+  min-height: 449px;
+  background: #fff;
+  display: inline-block;
+  width: 362px;
+  margin-right: 23px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.offers__item:last-child {
+  margin-right: 0;  
+}
+
+.offers__img {
+  max-width: 362px;
+  max-height: 144px;
+}
+
+.offers__content {
+  padding: 26px 22px;
+}
+
+.offers__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 7px;
+}
+
+.offers__features {
+  margin-bottom: 20px;
+  margin-top: 21px;
+}
+
+.offers__feature {
+  display: inline-block;
+  
+  margin-left: 6px;
+  margin-right: 18px;
+}
+
+.offers__feature-icon,.offers__feature-text {
+  display: inline-block
+}
+
+.offers__feature-text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+  transform: translate(0, -27%);
+  margin-left: 6px;
+  
+}
+
+.offers__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.button--watch {
+  width: 135px;
+  color: #F5170E;
+  background: #fff;
+  border: 1px solid #F5170E;
+  padding: 17px;
+}
+
+.button--watch:hover {
+  color: #DA0100;
+}
+
+.button--watch-colored {
+  width: 135px;
+}
+
