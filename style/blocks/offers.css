@@ -89,10 +89,7 @@
 }
 
 .button--watch:hover {
-  color: #DA0100;
-}
-
-.button--watch-colored {
-  width: 135px;
+  background: #F5170E;
+  color: #fff;
 }
 

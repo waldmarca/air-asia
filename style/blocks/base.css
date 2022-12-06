@@ -96,7 +96,10 @@ img {
 }
 
 .button:hover {
-  color:#fff ;
+  color: #F5170E;
+  background: #fff;
+  border: 1px solid #F5170E;
+  padding: 17px;
 }
 
 .title {
