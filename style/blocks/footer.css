@@ -1,12 +1,25 @@
+.footer-container {
+  margin-top: auto;
+}
+
 .footer-container__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1)
-  
 }
 
 .footer {
-  height: 146px;
-  position: relative;
-  margin-top: 17px;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align-right {
+  justify-content: flex-end;
 }
 
 .contacts__facts {
@@ -16,15 +29,12 @@
 }
 
 .social {
-  position: absolute;
-  top: 33px;
-  right: 268px;
+  margin-right: 74px;
+  display: flex;
 }
 
 .social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
 .social__item:last-child {

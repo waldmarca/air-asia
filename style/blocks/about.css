@@ -3,24 +3,26 @@
 }
 .about__content:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
   width: 490px;
   height: 505px;
   border-radius: 5px;
   overflow: hidden;
   background: url('../../img/gates.png') center center / cover no-repeat;
+  display: block;
+}
+
+.about__content {
+  display: flex;
 }
 
 .about__info {
   background: url('../../img/mountains.png') center center / cover no-repeat;
-  display: inline-block;
   vertical-align: top;
-  width: 785px;
-  height: 455px;
+  max-width: 785px;
+  min-height: 455px;
   margin-top: 97px;
-  margin-left: -142px;
-  padding: 70px 81px 66px;
+  margin-left: -139px;
+  padding: 70px 202px 66px 81px;
   border-radius: 5px;
   overflow: hidden;
 }

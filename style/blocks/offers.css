@@ -1,87 +1,99 @@
 .offers {
-  margin-bottom: 121px;
+  margin-bottom: 127px;
 }
 
 .title--fire:after {
   content: "" ;
   background: url(../../img/flame.png);
-  margin-left: 10px;
+  margin-left: 14px;
   width: 21px;
   height: 28px;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, 50%);
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .offers__item {
+  width: calc(100% / 3 - 18px);
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
   min-height: 449px;
   background: #fff;
-  display: inline-block;
-  width: 362px;
-  margin-right: 23px;
   border-radius: 5px;
   overflow: hidden;
 }
 
-.offers__item:last-child {
-  margin-right: 0;  
-}
-
-.offers__img {
+.offer__img {
+  display: flex;
   max-width: 362px;
   max-height: 144px;
 }
 
-.offers__content {
-  padding: 26px 22px;
+.offer__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 305px;
+  padding: 33px 22px 26px;
 }
 
-.offers__title {
+.offer__title {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   color: #000000;
-  margin-top: 7px;
+  margin-bottom: 10px;
 }
 
-.offers__features {
-  margin-bottom: 20px;
-  margin-top: 21px;
+.offer__features {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
-.offers__feature {
-  display: inline-block;
-  
-  margin-left: 6px;
-  margin-right: 18px;
+.offer__feature {
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
 }
 
-.offers__feature-icon,.offers__feature-text {
-  display: inline-block
+.offer__feature:last-child {
+  margin-right: 0;
 }
 
-.offers__feature-text {
-  display: inline-block;
+.offer__feature-icon {
+  max-height: 26px;
+  max-width: 36px;
+  margin-right: 10px;
+}
+
+.offer__feature-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #666666;
-  transform: translate(0, -27%);
-  margin-left: 6px;
-  
 }
 
-.offers__text {
+.offer__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #303030;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .button--watch {
-  width: 135px;
+  margin-top: auto;
+  max-width: 135px;
   color: #F5170E;
   background: #fff;
   border: 1px solid #F5170E;
