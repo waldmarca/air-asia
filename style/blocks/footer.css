@@ -1,4 +1,4 @@
-.footer-container {
+.footer-container, .inner-footer {
   margin-top: auto;
 }
 
@@ -79,3 +79,4 @@
 .social__item--inst .social__link:hover {
   background-image: url('../../img/socials/inst-hov.png');
 }
+
