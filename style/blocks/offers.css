@@ -4,7 +4,7 @@
 
 .title--fire:after {
   content: "" ;
-  background: url(../../img/flame.png);
+  background: url(../../img/icons/flame.png);
   margin-left: 14px;
   width: 21px;
   height: 28px;

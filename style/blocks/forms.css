@@ -14,6 +14,8 @@
   font-size: 18px;
   line-height: 24px;
   resize: none;
+  outline: #fff;
+  transition: .5s ease-in-out;
 }
 
 .form__input:last-child {
@@ -56,6 +58,10 @@
   cursor: pointer;
 }
 
+.controls__tag {
+  transition: .5s ease-in-out;
+}
+
 .controls__checkbox:checked ~ .controls__tag {
   background: #B9EAE4;
 }
@@ -76,23 +82,17 @@
 }
 
 .button--color-black {
-  min-width: 168px;
-  background: #2B2B2B;
+  background: #8E8E8E;
+  border: #8E8E8E
 }
 
 .button--color-black:hover {
   color: #fff;
-  background: #8E8E8E;
-  border: #8E8E8E;
-  padding: 18px;
-}
-
-.button--submit {
-  min-width: 168px;
+  background: #2B2B2B;
+  border: #2B2B2B;
 }
 
 .button--submit:hover {
-  min-width: 168px;
   color: #fff;
   background: #F5170E;
 }

@@ -2,6 +2,10 @@
   background: url('../../img/elefant.png') center top no-repeat, url('../../img/valley.png') center bottom 179px no-repeat;
 }
 
+a {
+  transition: .3s;
+}
+
 a:hover {
   color: #da0100;
 }
@@ -9,22 +13,22 @@ a:hover {
 .button {
   display: flex;
   justify-content: center;
-  max-width: 168px;
-  padding: 18px;
+  width: 168px;
+  padding: 17px;
   background: #F5170E;
+  border: 1px solid #F5170E;
   border-radius: 35px;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
   color: #fff;
   text-transform: uppercase;
+  transition: .5s ease-in-out;
 }
 
 .button:hover {
   color: #F5170E;
   background: #fff;
-  border: 1px solid #F5170E;
-  padding: 17px;
 }
 
 .title {
