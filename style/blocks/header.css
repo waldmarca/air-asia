@@ -55,6 +55,7 @@
 }
 
 .contacts-dropdown {
+  cursor: pointer;
   position: relative;
   display: inline-flex;
 }
