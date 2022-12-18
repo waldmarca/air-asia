@@ -15,7 +15,7 @@
   line-height: 24px;
   resize: none;
   outline: #fff;
-  transition: .5s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .form__input:last-child {
@@ -59,7 +59,7 @@
 }
 
 .controls__tag {
-  transition: .5s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .controls__checkbox:checked ~ .controls__tag {
